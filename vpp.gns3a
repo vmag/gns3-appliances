@@ -1,0 +1,46 @@
+{
+    "name": "VPP",
+    "category": "guest",
+    "description": "VPP",
+    "vendor_name": "FD.IO VPP router",
+    "vendor_url": "https://fd.io/",
+    "documentation_url": "https://fd.io/resources/",
+    "product_name": "VPP",
+    "registry_version": 5,
+    "status": "beta",
+    "availability": "free",
+    "maintainer": "Virginijus Magelinskas @ NOIA NETWORK",
+    "maintainer_email": "virginijus.m@gmail.com",
+    "port_name_format": "eth{0}",
+    "qemu": {
+        "adapter_type": "virtio-net-pci",
+        "adapters": 5,
+        "ram": 2048,
+        "hda_disk_interface": "ide",
+        "arch": "x86_64",
+        "console_type": "telnet",
+        "boot_priority": "c",
+        "kvm": "require",
+        "options": "-nographic -cpu host"
+    },
+    "images": [
+
+
+        {
+            "filename": "vpp_public-18.10-06.qcow2",
+            "version": "18.10-06",
+            "md5sum": "570f0402b0d7f1fe48046801e66f331c",
+            "filesize": 3025141760,
+            "download_url": "http://sigaba.net/vpp/vpp_public-18.10-06.qcow2"
+        }
+    ],
+    "versions": [
+
+        {
+            "name": "18.10-06",
+            "images": {
+                "hda_disk_image": "vpp_public-18.10-06.qcow2"
+            }
+        }
+    ]
+}

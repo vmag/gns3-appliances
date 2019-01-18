@@ -29,8 +29,8 @@
         {
             "filename": "vpp_public-18.10-06.qcow2",
             "version": "18.10-06",
-            "md5sum": "570f0402b0d7f1fe48046801e66f331c",
-            "filesize": 3025141760,
+            "md5sum": "1dbf9bd2266d2551de006fa745278942",
+            "filesize": 4295884800,
             "download_url": "https://sigaba.net/vpp/vpp_public-18.10-06.qcow2"
         }
     ],

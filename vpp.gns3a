@@ -7,7 +7,7 @@
     "documentation_url": "https://fd.io/resources/",
     "product_name": "VPP",
     "registry_version": 5,
-    "status": "beta",
+    "status": "experimental",
     "availability": "free",
     "maintainer": "Virginijus Magelinskas @ NOIA NETWORK",
     "maintainer_email": "virginijus.m@gmail.com",
